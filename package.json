@@ -1,0 +1,27 @@
+{
+  "name": "minidom-compiler",
+  "version": "0.1.0",
+  "description": "compiler for minidom representation",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camshaft/minidom-compiler.git"
+  },
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/camshaft/minidom-compiler/issues"
+  },
+  "homepage": "https://github.com/camshaft/minidom-compiler",
+  "dependencies": {
+    "htmlparser": "^1.7.7",
+    "minidom-tags": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
